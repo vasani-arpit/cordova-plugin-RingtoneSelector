@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="org.RingtoneSelector" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+  <name>RingtoneSelector</name>
+  <DESCRIPTION>Awesome Plugin</DESCRIPTION>
+  <js-module name="RingtoneSelector" src="www/RingtoneSelector.js">
+    <clobbers target="cordova.plugins.RingtoneSelector" />
+  </js-module>
+  <platform name="android">
+    <config-file parent="/*" target="res/xml/config.xml">
+      <feature name="RingtoneSelector">
+        <param name="android-package" value="org.RingtoneSelector.RingtoneSelector" />
+      </feature>
+    </config-file>
+    <config-file parent="/*" target="AndroidManifest.xml"></config-file>
+    <source-file src="src/android/RingtoneSelector.java" target-dir="src/org/RingtoneSelector" />
+  </platform>
+</plugin>

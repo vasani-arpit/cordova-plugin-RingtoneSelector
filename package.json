@@ -1,0 +1,17 @@
+{
+  "name": "RingtoneSelector",
+  "version": "0.0.1",
+  "description": "opens up a native ringtone selector",
+  "cordova": {
+    "id": "org.RingtoneSelector",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Arpit Vasani",
+  "license": "ISC"
+}
